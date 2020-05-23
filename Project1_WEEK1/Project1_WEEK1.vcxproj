@@ -116,10 +116,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1;C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1\include;C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1\source;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1;C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1\include;C:\Users\doctorbim\source\repos\Project1_WEEK1\Project1_WEEK1\source;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -139,7 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="float.c" />
     <ClCompile Include="hello.c" />
+    <ClCompile Include="int.c" />
+    <ClCompile Include="parity.c" />
     <ClCompile Include="string.c" />
     <ClCompile Include="test.c" />
   </ItemGroup>

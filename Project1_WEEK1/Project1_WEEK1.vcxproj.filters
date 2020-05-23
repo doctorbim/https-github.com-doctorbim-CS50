@@ -24,5 +24,14 @@
     <ClCompile Include="string.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="int.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="float.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parity.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
